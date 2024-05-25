@@ -11,6 +11,6 @@ python -m venv env
 
 ## Linux Permisos
 
-´´´bash
+```bash
 sudo chmod -R 777 api.9780p2p_back
-´´´
+```
