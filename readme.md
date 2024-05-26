@@ -1,4 +1,49 @@
-## Django Template
+
+<h2 align="center"> Django Template</h2>
+
+<p align="center">
+  
+  <a>
+    <img src="https://img.shields.io/github/languages/top/brian-emarquez/django-template?color=green">
+  </a>
+
+  <a href="https://github.com/brian-emarquez/django-template/stargazers">
+    <img src="https://img.shields.io/github/stars/BrianMarquez3/Learning-Microsoft-SQL-SERVER.svg?style=flat" alt="Stars">
+  </a>
+
+  <a href="https://github.com/brian-emarquez/django-template/network">
+    <img src="https://img.shields.io/github/forks/BrianMarquez3/Learning-Microsoft-SQL-SERVER.svg?style=flat" alt="Forks">
+  </a>
+    <img src="https://img.shields.io/github/v/tag/brian-emarquez/django-template?color=red&label=Version&logo=TSQL">
+  </a>
+  
+  <a>
+    <img src="https://img.shields.io/github/languages/code-size/brian-emarquez/django-template">
+  </a>
+  
+  <a>
+    <img src="https://img.shields.io/github/downloads/brian-emarquez/django-template?color=green">
+  </a>
+  
+   <a>
+   <a href="https://github.com/brian-emarquez/Learning-Microsoft-SQL-SERVER/network">
+    <img src="https://img.shields.io/badge/Plataform-Windows-green">
+  </a><br>
+ 
+  <img src="https://img.shields.io/github/last-commit/Bbrian-emarquez/django-template?color=darkgreen&style=for-the-badge">
+  <img src="https://img.shields.io/github/languages/count/brian-emarquez/django-template?style=for-the-badge">
+  
+</p>
+  
+
+<table align="center">
+  <tr>
+    <td align="center" style="padding=0;width=50%;">
+      <img align="center" style="padding=0;" src="./assets/django.png" />
+    </td>
+  </tr>
+</table>
+
 
 
 Crear un entorno virtual
