@@ -12,25 +12,22 @@
   </a>
 
   <a href="https://github.com/brian-emarquez/django-template/network">
-    <img src="https://img.shields.io/github/forks/BrianMarquez3/Learning-Microsoft-SQL-SERVER.svg?style=flat" alt="Forks">
+    <img src="https://img.shields.io/github/forks/brian-emarquez/django-template.svg?style=flat" alt="Forks">
+
   </a>
-    <img src="https://img.shields.io/github/v/tag/brian-emarquez/django-template?color=red&label=Version&logo=TSQL">
+    <img src="https://img.shields.io/github/v/tag/brian-emarquez/django-template?color=green&label=Version&logo=django">
   </a>
   
   <a>
     <img src="https://img.shields.io/github/languages/code-size/brian-emarquez/django-template">
   </a>
-  
-  <a>
-    <img src="https://img.shields.io/github/downloads/brian-emarquez/django-template?color=green">
-  </a>
-  
-   <a>
-   <a href="https://github.com/brian-emarquez/Learning-Microsoft-SQL-SERVER/network">
+    
+  <a href="https://github.com/brian-emarquez/django-template/network">
     <img src="https://img.shields.io/badge/Plataform-Windows-green">
   </a><br>
  
-  <img src="https://img.shields.io/github/last-commit/Bbrian-emarquez/django-template?color=darkgreen&style=for-the-badge">
+  <img src="https://img.shields.io/github/last-commit/brian-emarquez/django-template?color=darkgreen&style=for-the-badge">
+  
   <img src="https://img.shields.io/github/languages/count/brian-emarquez/django-template?style=for-the-badge">
   
 </p>
