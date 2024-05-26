@@ -27,7 +27,7 @@
   </a><br>
  
   <img src="https://img.shields.io/github/last-commit/brian-emarquez/django-template?color=darkgreen&style=for-the-badge">
-  
+
   <img src="https://img.shields.io/github/languages/count/brian-emarquez/django-template?style=for-the-badge">
   
 </p>
@@ -49,8 +49,6 @@ Crear un entorno virtual
 python -m venv env
 ```
 
-
-
 ## Linux Permisos
 
 _privilegios linux_
@@ -58,7 +56,7 @@ _privilegios linux_
 sudo chmod -R 777 file
 ```
 
-_iIP linux_
+_IP linux_
 ```bash
-sudo chmod -R 777 file
+ifconfig
 ```
