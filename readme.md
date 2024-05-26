@@ -32,7 +32,6 @@
   
 </p>
   
-
 <table align="center">
   <tr>
     <td align="center" style="padding=0;width=50%;">
@@ -41,7 +40,11 @@
   </tr>
 </table>
 
+---
 
+_Tutorial para crear un Proyecto_
+
+[Tutorial Crear Proyecto Django](https://www.digitalocean.com/community/tutorials/how-to-install-django-and-set-up-a-development-environment-on-ubuntu-20-04-es)
 
 Crear un entorno virtual
 
