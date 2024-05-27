@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     #'catalog.apps.CatalogConfig',
-    'catalog',
+    #'catalog',
 ]
 
 MIDDLEWARE = [
@@ -82,16 +82,35 @@ WSGI_APPLICATION = 'api.wsgi.application'
 #     }
 # }
 
+# SQL SERVER
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'api',
-        'USER': 'postgres',
+        'ENGINE': 'mssql',
+        'NAME': 'API',
+        'USER': 'sa',
         'PASSWORD': 'briandb',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'HOST': 'localhost',  # o la IP del servidor SQL Server
+        'PORT': '1433',  # puerto por defecto de SQL Server
+        'OPTIONS': {
+            'driver': 'ODBC Driver 17 for SQL Server',
+            'extra_params': 'Trusted_Connection=no',
+            'timeout': 30,
+        },
     }
 }
+
+
+# #  POSTGRES
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'api',
+#         'USER': 'postgres',
+#         'PASSWORD': 'briandb',
+#         'HOST': '127.0.0.1',
+#         'PORT': '5432',
+#     }
+# }
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators

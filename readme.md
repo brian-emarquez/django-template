@@ -46,10 +46,93 @@ _Tutorial para crear un Proyecto_
 
 [Tutorial Crear Proyecto Django](https://www.digitalocean.com/community/tutorials/how-to-install-django-and-set-up-a-development-environment-on-ubuntu-20-04-es)
 
-Crear un entorno virtual
+- Crear un entorno virtual
 
+```bash
+mkdir django-apps
+cd django-apps
 ```
-python -m venv env
+_env_
+
+```bash
+virtualenv env
+```
+
+_Activar entorno_
+
+```bash
+. env/bin/activate
+```
+
+_Intalar Django(version)_
+
+```bash
+pip install django
+django-admin --version
+```
+
+_Ajustar la configuración del firewall_
+
+```bash
+sudo ufw allow 8000
+```
+
+## Iniciar el proyecto
+
+```bash
+django-admin startproject testsite
+cd testsite
+ls
+```
+
+```bash
+cd testsite/
+```
+
+## Crear super usuario
+
+```bash
+python manage.py createsuperuser
+```
+
+- Acceder a la app web de Django
+
+```bash
+cd ~/django-apps/testsite/
+python manage.py runserver 0.0.0.0:8000
+```
+
+<table align="center">
+  <tr>
+    <td align="center" style="padding=0;width=50%;">
+      <img align="center" style="padding=0;" src="./assets/django-3-testsite.png" />
+    </td>
+  </tr>
+</table>
+
+
+## Django Admin
+
+
+```bash
+http://your_server_ip:8000/admin/
+```
+
+
+<table align="center">
+  <tr>
+    <td align="center" style="padding=0;width=50%;">
+      <img align="center" style="padding=0;" src="./assets/django-admin-login.png" />
+    </td>
+  </tr>
+</table>
+
+
+
+_Desactivar_
+
+```bash
+deactivate
 ```
 
 ## Linux Permisos
@@ -62,4 +145,15 @@ sudo chmod -R 777 file
 _IP linux_
 ```bash
 ifconfig
+```
+
+## postgres
+
+
+_Coomando inicializacion_
+
+```bash
+service postgresql start
+service postgresql status
+service postgresql stop
 ```
