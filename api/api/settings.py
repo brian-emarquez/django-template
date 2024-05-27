@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'catalog.apps.CatalogConfig',
+    'catalog.apps.CatalogConfig',
     #'catalog',
 ]
 
@@ -85,29 +85,29 @@ WSGI_APPLICATION = 'api.wsgi.application'
 # SQL SERVER
 DATABASES = {
     'default': {
-        'ENGINE': 'mssql',
+        'ENGINE': 'sql_server.pyodbc',
         'NAME': 'API',
-        'USER': 'sa',
-        'PASSWORD': 'briandb',
+        'USER': 'demo',
+        'PASSWORD': 'demo',
         'HOST': 'localhost',  # o la IP del servidor SQL Server
         'PORT': '1433',  # puerto por defecto de SQL Server
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
-            'extra_params': 'Trusted_Connection=no',
-            'timeout': 30,
+            'extra_params': 'TrustServerCertificate=yes',  # para evitar problemas de certificado SSL
+            'timeout': 30,  # tiempo de espera en segundos
         },
     }
 }
 
 
-# #  POSTGRES
+#  POSTGRES
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'api',
+#         'NAME': 'api02',
 #         'USER': 'postgres',
 #         'PASSWORD': 'briandb',
-#         'HOST': '127.0.0.1',
+#         'HOST': 'localhost',
 #         'PORT': '5432',
 #     }
 # }
