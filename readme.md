@@ -127,6 +127,9 @@ http://your_server_ip:8000/admin/
   </tr>
 </table>
 
+- Requirements
+
+[https://pip.pypa.io/en/stable/cli/pip_freeze/]
 
 
 _Desactivar_
@@ -135,7 +138,7 @@ _Desactivar_
 deactivate
 ```
 
-## Linux Permisos
+## (Ubuntu) Linux Permisos
 
 _privilegios linux_
 ```bash
@@ -147,7 +150,7 @@ _IP linux_
 ifconfig
 ```
 
-## Postgres
+## Postgres Linux
 
 
 _Coomando inicializacion_
@@ -157,6 +160,7 @@ service postgresql start
 service postgresql status
 service postgresql stop
 ```
+
 
 
 ## Django with Postgres Nginx andmGunicorn
