@@ -1,0 +1,17 @@
+<!-- blog/templates/blog/home.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <h1>Home</h1>
+    <ul>
+        {% for post in posts %}
+        <li>{{ post.title }}: {{ post.content }}</li>
+        {% endfor %}
+    </ul>
+    <a href="{% url 'create_post' %}">Create a new post</a>
+</body>
+</html>
