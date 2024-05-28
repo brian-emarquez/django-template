@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-9h54s2oph4*0@%mu3z-4a*so+x@8cg_m(@^*i_$arou-&n#10)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -85,16 +85,17 @@ WSGI_APPLICATION = 'api.wsgi.application'
 # SQL SERVER
 DATABASES = {
     'default': {
-        'ENGINE': 'sql_server.pyodbc',
+        'ENGINE': 'mssql',
         'NAME': 'API',
         'USER': 'demo',
         'PASSWORD': 'demo',
-        'HOST': 'localhost',  # o la IP del servidor SQL Server
+        'HOST': '127.0.0.1',  # o la IP del servidor SQL Server
         'PORT': '1433',  # puerto por defecto de SQL Server
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
-            'extra_params': 'TrustServerCertificate=yes',  # para evitar problemas de certificado SSL
-            'timeout': 30,  # tiempo de espera en segundos
+            'extra_params': 'TrustServerCertificate=yes;',
+            'timeout': 60,  # Increase the timeout to 60 seconds
+            'MARS_Connection': 'True',  # Enable Multiple Active Result Sets if needed
         },
     }
 }

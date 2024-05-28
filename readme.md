@@ -147,7 +147,7 @@ _IP linux_
 ifconfig
 ```
 
-## postgres
+## Postgres
 
 
 _Coomando inicializacion_
@@ -157,3 +157,9 @@ service postgresql start
 service postgresql status
 service postgresql stop
 ```
+
+
+## Django with Postgres Nginx andmGunicorn
+
+_Tutorial_
+[Django, Postgres, Nginx y Gunicorn](https://github.com/brian-emarquez/Django-with-Postgres-Nginx-and-Gunicorn)
