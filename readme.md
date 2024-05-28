@@ -163,4 +163,10 @@ service postgresql stop
 
 _Tutorial_
 
-Github - [Django, Postgres, Nginx y Gunicorn](https://github.com/brian-emarquez/Django-with-Postgres-Nginx-and-Gunicorn)
+Github Tutorial - [Django, Postgres, Nginx y Gunicorn](https://github.com/brian-emarquez/Django-with-Postgres-Nginx-and-Gunicorn)
+
+## Python-Django
+
+_Tutorial_
+
+Github Python-Django - [https://github.com/brian-emarquez/Python-Django)
