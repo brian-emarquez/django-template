@@ -6,9 +6,13 @@ from profiles.models import Profile
 from events.models import Event
 # Register your models here.
 
-admin.site.register(Post)
+class ApiAdmin(admin.ModelAdmin):
+    list_display = ('title', 'content', 'created_at')
+
+admin.site.register(Post, ApiAdmin)
 admin.site.register(Comment)
 admin.site.register(Profile)
 admin.site.register(Event)
 
 
+# 
