@@ -131,6 +131,12 @@ http://your_server_ip:8000/admin/
 
 [https://pip.pypa.io/en/stable/cli/pip_freeze/]
 
+_ requirements_
+
+```bash
+pip freeze > requirements.txt
+pip install -r requirements.txt
+```
 
 _Desactivar_
 
@@ -150,7 +156,7 @@ _IP linux_
 ifconfig
 ```
 
-## Postgres Linux
+## (Ubuntu) Postgres Linux 
 
 
 _Coomando inicializacion_
