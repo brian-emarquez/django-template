@@ -27,5 +27,8 @@ urlpatterns = [
     path('comments/', include('comments.urls')),
     path('profiles/', include('profiles.urls')),
     path('events/', include('events.urls')),
+    path('jet/', include('jet.urls', 'jet')),  # Django JET URLS
+    path('jet/dashboard/', include('jet.dashboard.urls', 'jet-dashboard')),  # Django JET dashboard URLS
+    
 ]
 
