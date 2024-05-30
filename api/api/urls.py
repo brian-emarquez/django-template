@@ -22,5 +22,6 @@ urlpatterns = [
     path('blog', include('blog.urls')),
     path('comments/', include('comments.urls')),
     path('profiles/', include('profiles.urls')),
+    path('events/', include('events.urls')),
 ]
 

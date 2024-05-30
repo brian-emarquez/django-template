@@ -1,16 +1,16 @@
-<!-- profiles/templates/profiles/create_profile.html -->
+<!-- events/templates/events/create_event.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Create Profile</title>
+    <title>Create Event</title>
 </head>
 <body>
-    <h1>Create a Profile</h1>
+    <h1>Create a New Event</h1>
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit">Save Profile</button>
+        <button type="submit">Save Event</button>
     </form>
 </body>
 </html>
