@@ -9,7 +9,15 @@
     <h1>Home</h1>
     <ul>
         {% for post in posts %}
-        <li>{{ post.title }}: {{ post.content }}</li>
+        <li>
+            {{ post.title }}: {{ post.content }}
+            <a href="{% url 'add_comment_to_post' post.id %}">Add Comment</a>
+            <ul>
+                {% for comment in post.comments.all %}
+                <li>{{ comment.author }}: {{ comment.content }}</li>
+                {% endfor %}
+            </ul>
+        </li>
         {% endfor %}
     </ul>
     <a href="{% url 'create_post' %}">Create a new post</a>
