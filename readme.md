@@ -180,3 +180,16 @@ Github Tutorial - [Django, Postgres, Nginx y Gunicorn](https://github.com/brian-
 _Tutorial_
 
 Github Python-Django - [https://github.com/brian-emarquez/Python-Django)
+
+
+## Cambiar la Configuración Global de Git
+
+_Cambiar el nombre de usuario global_
+```bash
+git config --global user.name "Nuevo Nombre de Usuario"
+```
+
+_Cambiar el correo electrónico global_
+```bash
+git config --global user.email "nuevo.correo@ejemplo.com"
+```
