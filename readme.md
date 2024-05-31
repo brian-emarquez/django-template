@@ -113,6 +113,9 @@ python manage.py runserver 0.0.0.0:8000
 
 ## Django Admin
 
+_Install Jet Admin_
+
+[django-jet](https://github.com/Mojtaba-saf/django-jet)
 
 ```bash
 http://your_server_ip:8000/admin/
