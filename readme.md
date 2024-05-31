@@ -147,22 +147,26 @@ _Desactivar_
 deactivate
 ```
 
-## (Ubuntu) Linux Permisos
+## Linux Permisos(Ubuntu)
 
-_privilegios linux_
+_privilegios linux(Ubuntu)_
 ```bash
 sudo chmod -R 777 file
 ```
 
-_IP linux_
+_IP linux(Ubuntu)_
 ```bash
 ifconfig
 ```
 
 ## (Ubuntu) Postgres Linux 
 
+_Install Postgres_
 
-_Coomando inicializacion_
+[Install Postgres Actual en Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04-es)
+
+
+_Comando inicializacion_
 
 ```bash
 service postgresql start
@@ -170,9 +174,16 @@ service postgresql status
 service postgresql stop
 ```
 
+_Create Postgres Password_
+
+```bash
+sudo -u postgres psql
+\password
+Enter password: ...
+```
 
 
-## Django with Postgres Nginx andmGunicorn
+## Django with Postgres Nginx and Gunicorn
 
 _Tutorial_
 
@@ -182,7 +193,10 @@ Github Tutorial - [Django, Postgres, Nginx y Gunicorn](https://github.com/brian-
 
 _Tutorial_
 
-Github Python-Django - [https://github.com/brian-emarquez/Python-Django)
+Github Link - [Python-Django](https://github.com/brian-emarquez/Python-Django)
+
+GitHUb Link - [PostgreSQL-Training](https://github.com/brian-emarquez/PostgreSQL-Training)
+
 
 
 ## Cambiar la Configuración Global de Git
