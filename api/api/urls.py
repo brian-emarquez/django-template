@@ -28,6 +28,5 @@ urlpatterns = [
     path('profiles/', include('profiles.urls')),
     path('events/', include('events.urls')),
     path('api/', include('tasks.urls')),  # Incluye las URLs de la aplicación tasks
-
 ]
 
